@@ -4,6 +4,14 @@ A real-time facial symmetry detection web app using Streamlit, MediaPipe, and Op
 
 ---
 
+
+## Demo
+
+
+![Face Symmetry Screenshot](assets/image.png)
+
+---
+
 ## Features
 
 - Detects face and facial landmarks in webcam video stream.
