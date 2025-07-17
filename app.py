@@ -87,6 +87,11 @@ st.title("🔍 Facial Symmetry Detector")
 
 webrtc_streamer(
     key="face-symmetry",
+    rtc_configuration={
+        "iceServers": [
+            {"urls": ["stun:stun.l.google.com:19302"]}
+        ]
+    },
     video_processor_factory=FaceSymmetryProcessor,
     media_stream_constraints={"video": True, "audio": False},
     async_processing=True
